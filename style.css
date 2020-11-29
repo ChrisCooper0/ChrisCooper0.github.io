@@ -302,6 +302,8 @@ section {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  -webkit-filter: blur(2.5px);
+          filter: blur(2.5px);
 }
 
 .github_icon {
