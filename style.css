@@ -204,7 +204,7 @@ section {
 }
 
 .project-header {
-  margin-top: 1rem;
+  margin: 5rem 0 3rem 0;
 }
 
 .project-container {
@@ -271,12 +271,12 @@ h4 {
 }
 
 #skills {
-  padding: 6rem;
+  padding: 4rem;
 }
 
 .skills {
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-top: 3rem;
 }
 
 .mySkills {
@@ -313,12 +313,13 @@ h4 {
 }
 
 .footer-text {
-  padding: 20px 0;
+  padding: 1rem 0;
+  font-size: 1.3rem;
 }
 
 .footer-icon {
   list-style: none;
-  padding: 0.8rem 0 0;
+  padding: 0.5rem 0;
 }
 
 .footer-icon-list {
