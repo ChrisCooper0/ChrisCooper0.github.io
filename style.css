@@ -17,6 +17,7 @@ html {
   text-transform: uppercase;
   position: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 .landing {
@@ -136,7 +137,7 @@ html {
 .nav-bar a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #2A2A2A;
+  color: #2a2a2a;
   font-weight: bold;
   font-size: 1rem;
 }
@@ -193,9 +194,15 @@ section {
   text-transform: none;
 }
 
+.icon-cv {
+  -webkit-transition: ease-in-out 0.33s;
+  transition: ease-in-out 0.33s;
+}
+
 .icon-cv:hover {
   -webkit-transform: scale(1.15);
   transform: scale(1.15);
+  cursor: pointer;
 }
 
 #projects {
@@ -265,9 +272,10 @@ h4 {
 }
 
 .card-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 300;
   text-transform: none;
-  color: #2A2A2A;
+  color: #2a2a2a;
 }
 
 #skills {
@@ -289,14 +297,18 @@ h4 {
   margin: 20px;
   padding: 20px 0;
   display: inline-block;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
   text-align: center;
+}
+
+.skills-icons-list li img {
+  -webkit-transition: all 0.33s ease-in-out;
+  transition: all 0.33s ease-in-out;
 }
 
 .icon-text {
   display: block;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 300;
   text-transform: none;
   padding: 0.5rem;
 }
@@ -307,7 +319,7 @@ h4 {
 }
 
 .footer {
-  background-color: #A0ACBD;
+  background-color: #a0acbd;
   color: #f5f5f5;
   text-align: center;
 }
@@ -332,6 +344,7 @@ h4 {
   text-decoration: none;
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1150px) {

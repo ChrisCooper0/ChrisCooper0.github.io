@@ -1,215 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <title>Chris Cooper</title>
+    <link
+      rel="shortcut icon"
+      href="/Icons/point-right.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="UTF-8" />
-  <title>Chris Cooper</title>
-  <link rel="shortcut icon" href="/Icons/point-right.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-</head>
+  <body>
+    <div class="main">
+      <div class="landing">
+        <ul class="landing-icon">
+          <li class="landing-icon-list">
+            <a
+              href="mailto:christopher.cooper@mail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-icon-link"
+            >
+              <img src="/Icons/email.svg" alt="icon-email"
+            /></a>
+          </li>
+          <li class="landing-icon-list">
+            <a
+              href="https://www.linkedin.com/in/chris--cooper/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-icon-link"
+            >
+              <img src="/Icons/linkedin.svg" alt="icon-lnikedin"
+            /></a>
+          </li>
 
-<body>
-  <div class="main">
-    <div class="landing">
-      <ul class="landing-icon">
-        <li class="landing-icon-list">
-          <a href="mailto:christopher.cooper@mail.com" target="_blank" rel="noreferrer noopener"
-            class="landing-icon-link">
-            <img src="/Icons/email.svg" alt="icon-email"></a>
-        </li>
-        <li class="landing-icon-list">
-          <a href="https://www.linkedin.com/in/chris--cooper/" target="_blank" rel="noreferrer noopener"
-            class="landing-icon-link">
-            <img src="/Icons/linkedin.svg" alt="icon-lnikedin"></a>
-        </li>
-
-        <li class="landing-icon-list">
-          <a href="https://github.com/ChrisCooper0" target="_blank" rel="noreferrer noopener" class="landing-icon-link">
-            <img src="/Icons/github-white.svg" alt="icon-github"></a>
-        </li>
-
-      </ul>
-      <div class="landing-intro">
-        <h1 class="landing-intro-text">Hello.</h1>
-        <h2 class="landing-intro-text">I'm Chris.</h2>
-      </div>
-      <button tabindex="0" class="landing-scroll-button">
-        <a href="#about">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" svg-inline
-            role="presentation" focusable="true" tabindex="false" class="landing-scroll-button-icon">
-            <path
-              d="M0 6a.5.5 0 01.853-.354l8.646 8.646 8.646-8.646a.5.5 0 01.707.707l-9 9a.5.5 0 01-.707 0l-9-9a.498.498 0 01-.146-.354z">
-            </path>
-          </svg>
-        </a>
-      </button>
-    </div>
-
-    <div class="container" id="about">
-      <nav class="nav-bar">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="landing-icon-list">
+            <a
+              href="https://github.com/ChrisCooper0"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="landing-icon-link"
+            >
+              <img src="/Icons/github-white.svg" alt="icon-github"
+            /></a>
+          </li>
         </ul>
-      </nav>
-      <section>
-        <h3 class="about">About</h3>
-        <div class="profile-div">
-          <img src="/Images/profile.png" class="profile-pic" alt="profile-picture" />
+        <div class="landing-intro">
+          <h1 class="landing-intro-text">Hello.</h1>
+          <h2 class="landing-intro-text">I'm Chris.</h2>
         </div>
-        <p class="about-me">
-          Hi, I'm Chris.
-          <br>A self-taught developer and tech enthusiast.
-          <br> I'm currently Head of Technology & Product Development for a Travel
-          Management Company.
+        <button tabindex="0" class="landing-scroll-button">
+          <a href="#about">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              svg-inline
+              role="presentation"
+              focusable="true"
+              tabindex="false"
+              class="landing-scroll-button-icon"
+            >
+              <path
+                d="M0 6a.5.5 0 01.853-.354l8.646 8.646 8.646-8.646a.5.5 0 01.707.707l-9 9a.5.5 0 01-.707 0l-9-9a.498.498 0 01-.146-.354z"
+              ></path>
+            </svg>
+          </a>
+        </button>
+      </div>
 
-          <br> Click the icon to view my CV or
-          scroll down for some recent projects and my skills.
-        </p>
-        <a href="CHRIS COOPER CV.pdf" target="_blank">
-          <img class="icon-cv" src="Icons/cv.svg" alt="icon-cv" width="33.33">
-        </a>
-      </section>
-      <section id="projects">
-        <h3 class="project-header">Projects</h3>
-        <div class="project-container">
-          <div class="card">
-            <h4>My portfolio site</h4>
-            <img src="/Images/landing-project.png" alt="landing-page-image" class="project-img">
-            <p class="card-text">This site was built using HTML and CSS (Scss).
-            </p>
-            <a href="https://github.com/ChrisCooper0/ChrisCooper0.github.io" target="_blank" rel="noreferrer noopener">
-              <img class="project-icons" src="/Icons/github-black.svg" alt="icon-github">
-            </a>
+      <div class="container" id="about">
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <section>
+          <h3 class="about">About</h3>
+          <div class="profile-div">
+            <img
+              src="/Images/profile.png"
+              class="profile-pic"
+              alt="profile-picture"
+            />
           </div>
-          <div class="card">
-            <h4>Hats for Her re-design</h4>
-            <img src="/Images/hats-for-her.png" alt="hats-for-her-image" class="project-img">
-            <p class="card-text">Site re-design built with Bootstrap, jQuery and JavaScript.
-            </p>
-            <a class="project-link" href="https://hats-for-her.netlify.app/" target="_blank" rel="noreferrer noopener">
-              <img class="project-icons" src="/Icons/sphere.svg" alt="icon-sphere">
-            </a>
-            <a href="https://github.com/ChrisCooper0/Hats-for-her" target="_blank" rel="noreferrer noopener">
-              <img class="project-icons" src="/Icons/github-black.svg" alt="icon-github">
-            </a>
-          </div>
-          <div class="card">
-            <h4>Calculator</h4>
-            <img src="/Images/calculator.png" alt="calculator-image" class="project-img">
-            <p class="card-text">Calculator built with HTML, CSS & JavaScript.
-            </p>
-            <a href="https://github.com/ChrisCooper0/Calculator-App" target="_blank" rel="noreferrer noopener">
-              <img class="project-icons" src="/Icons/github-black.svg" alt="icon-github">
-            </a>
-          </div>
-          <div class="card">
-            <h4>Password Generator</h4>
-            <img src="/Images/password-generator.png" alt="password-generator-image" class=" project-img">
-            <p class="card-text">Password generator built with HTML, CSS & JavaScript.
-            </p>
-            <a class="project-link" href="https://codepen.io/chriscooper0/project/editor/ZrYzGM" target="_blank"
-              rel="noreferrer noopener">
-              <img class="project-icons" src="/Icons/sphere.svg" alt="icon-sphere">
-            </a>
-            <a href="https://github.com/ChrisCooper0/Password-Generator" target="_blank" rel="noreferrer noopener">
-              <img class="project-icons" src="/Icons/github-black.svg" alt="icon-github">
-            </a>
-          </div>
-          <div class="card">
-            <h4>More Coming Soon</h4>
-            <img src="/Images/webdev.jpg" alt="" class="project-img">
-            <p class="card-text">
-            </p>
-            <a href="https://github.com/ChrisCooper0" target="_blank" rel="noreferrer noopener">
-              <img class="project-icons" src="/Icons/github-black.svg" alt="icon-github">
-            </a>
-          </div>
-        </div>
-      </section>
+          <p class="about-me">
+            Hi, I'm Chris.
+            <br />A self-taught developer and tech enthusiast. <br />
+            I'm currently Head of Technology & Product Development for a Travel
+            Management Company.
 
+            <br />
+            Click the icon to view my CV or scroll down for some recent projects
+            and my skills.
+          </p>
+          <a href="CHRIS COOPER CV.pdf" target="_blank">
+            <img class="icon-cv" src="Icons/cv.svg" alt="icon-cv" width="50" />
+          </a>
+        </section>
+        <section id="projects">
+          <h3 class="project-header">Projects</h3>
+          <div class="project-container">
+            <div class="card">
+              <h4>My portfolio site</h4>
+              <img
+                src="/Images/landing-project.png"
+                alt="landing-page-image"
+                class="project-img"
+              />
+              <p class="card-text">
+                This site was built using HTML and CSS (Scss).
+              </p>
+              <a
+                href="https://github.com/ChrisCooper0/ChrisCooper0.github.io"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="project-icons"
+                  src="/Icons/github-black.svg"
+                  alt="icon-github"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <h4>Hats for Her re-design</h4>
+              <img
+                src="/Images/hats-for-her.png"
+                alt="hats-for-her-image"
+                class="project-img"
+              />
+              <p class="card-text">
+                Site re-design built with Bootstrap, jQuery and JavaScript.
+              </p>
+              <a
+                class="project-link"
+                href="https://hats-for-her.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="project-icons"
+                  src="/Icons/sphere.svg"
+                  alt="icon-sphere"
+                />
+              </a>
+              <a
+                href="https://github.com/ChrisCooper0/Hats-for-her"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="project-icons"
+                  src="/Icons/github-black.svg"
+                  alt="icon-github"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <h4>Calculator</h4>
+              <img
+                src="/Images/calculator.png"
+                alt="calculator-image"
+                class="project-img"
+              />
+              <p class="card-text">
+                Calculator built with HTML, CSS & JavaScript.
+              </p>
+              <a
+                href="https://github.com/ChrisCooper0/Calculator-App"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="project-icons"
+                  src="/Icons/github-black.svg"
+                  alt="icon-github"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <h4>Password Generator</h4>
+              <img
+                src="/Images/password-generator.png"
+                alt="password-generator-image"
+                class="project-img"
+              />
+              <p class="card-text">
+                Password generator built with HTML, CSS & JavaScript.
+              </p>
+              <a
+                class="project-link"
+                href="https://codepen.io/chriscooper0/project/editor/ZrYzGM"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="project-icons"
+                  src="/Icons/sphere.svg"
+                  alt="icon-sphere"
+                />
+              </a>
+              <a
+                href="https://github.com/ChrisCooper0/Password-Generator"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="project-icons"
+                  src="/Icons/github-black.svg"
+                  alt="icon-github"
+                />
+              </a>
+            </div>
+            <div class="card">
+              <h4>More Coming Soon</h4>
+              <img src="/Images/webdev.jpg" alt="" class="project-img" />
+              <p class="card-text"></p>
+              <a
+                href="https://github.com/ChrisCooper0"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <img
+                  class="project-icons"
+                  src="/Icons/github-black.svg"
+                  alt="icon-github"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
 
-      <section id="skills">
-        <h3 class="skills">Skills</h3>
-        <p class="mySkills">
-          I have completed projects in the following languages, frameworks and
-          libraries.
-        </p>
-        <div class="skills-icons">
-          <ul class="skills-icons-list">
-            <li>
-              <img src="/Icons/html5.svg" alt="icon-html" />
-              <p class="icon-text">HTML</p>
+        <section id="skills">
+          <h3 class="skills">Skills</h3>
+          <p class="mySkills">
+            I have completed projects in the following languages, frameworks and
+            libraries.
+          </p>
+          <div class="skills-icons">
+            <ul class="skills-icons-list">
+              <li>
+                <img src="/Icons/html5.svg" alt="icon-html" />
+                <p class="icon-text">HTML</p>
+              </li>
+              <li>
+                <img src="/Icons/css3.svg" alt="icon-css" />
+                <p class="icon-text">CSS</p>
+              </li>
+              <li>
+                <img src="/Icons/javascript.svg" alt="icon-javscript" />
+                <p class="icon-text">JavaScript</p>
+              </li>
+              <li>
+                <img src="/Icons/typescript.svg" alt="icon-typescript" />
+                <p class="icon-text">TypeScript</p>
+              </li>
+              <li>
+                <img src="/Icons/jquery.svg" alt="icon-jquery" />
+                <p class="icon-text">jQuery</p>
+              </li>
+              <li>
+                <img src="/Icons/sass.svg" alt="icon-sass" />
+                <p class="icon-text">Sass</p>
+              </li>
+              <li>
+                <img src="/Icons/bootstrap.svg" alt="icon-boostrap" />
+                <p class="icon-text">Bootstrap</p>
+              </li>
+              <li>
+                <img src="/Icons/react.svg" alt="icon-react" />
+                <p class="icon-text">React</p>
+              </li>
+              <li>
+                <img src="/Icons/node-dot-js.svg" alt="icon-nodejs" />
+                <p class="icon-text">Node.js</p>
+              </li>
+              <li>
+                <img src="/Icons/jest.svg" alt="icon-jest" />
+                <p class="icon-text">Jest</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <footer id="contact" class="footer">
+          <h3 class="footer-text">Connect with me</h3>
+          <ul class="footer-icon">
+            <li class="footer-icon-list">
+              <a
+                href="mailto:christopher.cooper@mail.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="landing-icon-link"
+              >
+                <img src="/Icons/email.svg" alt="icon-email"
+              /></a>
             </li>
-            <li>
-              <img src="/Icons/css3.svg" alt="icon-css" />
-              <p class="icon-text">CSS</p>
+            <li class="footer-icon-list">
+              <a
+                href="https://www.linkedin.com/in/chris--cooper/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="landing-icon-link"
+              >
+                <img src="/Icons/linkedin.svg" alt="icon-linkedin"
+              /></a>
             </li>
-            <li>
-              <img src="/Icons/javascript.svg" alt="icon-javscript" />
-              <p class="icon-text">JavaScript</p>
-            </li>
-            <li>
-              <img src="/Icons/typescript.svg" alt="icon-typescript" />
-              <p class="icon-text">TypeScript</p>
-            </li>
-            <li>
-              <img src="/Icons/jquery.svg" alt="icon-jquery" />
-              <p class="icon-text">jQuery</p>
-            </li>
-            <li>
-              <img src="/Icons/sass.svg" alt="icon-sass" />
-              <p class="icon-text">Sass</p>
-            </li>
-            <li>
-              <img src="/Icons/bootstrap.svg" alt="icon-boostrap" />
-              <p class="icon-text">Bootstrap</p>
-            </li>
-            <li>
-              <img src="/Icons/react.svg" alt="icon-react" />
-              <p class="icon-text">React</p>
-            </li>
-            <li>
-              <img src="/Icons/node-dot-js.svg" alt="icon-nodejs" />
-              <p class="icon-text">Node.js</p>
-            </li>
-            <li>
-              <img src="/Icons/jest.svg" alt="icon-jest" />
-              <p class="icon-text">Jest</p>
+
+            <li class="footer-icon-list">
+              <a
+                href="https://github.com/ChrisCooper0"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="landing-icon-link"
+              >
+                <img src="/Icons/github-white.svg" alt="icon-github"
+              /></a>
             </li>
           </ul>
-        </div>
-
-      </section>
-      <footer id="contact" class="footer">
-        <h3 class="footer-text">Connect with me</h3>
-        <ul class="footer-icon">
-          <li class="footer-icon-list">
-            <a href="mailto:christopher.cooper@mail.com" target="_blank" rel="noreferrer noopener"
-              class="landing-icon-link">
-              <img src="/Icons/email.svg" alt="icon-email"></a>
-          </li>
-          <li class="footer-icon-list">
-            <a href="https://www.linkedin.com/in/chris--cooper/" target="_blank" rel="noreferrer noopener"
-              class="landing-icon-link">
-              <img src="/Icons/linkedin.svg" alt="icon-linkedin"></a>
-          </li>
-
-          <li class="footer-icon-list">
-            <a href="https://github.com/ChrisCooper0" target="_blank" rel="noreferrer noopener"
-              class="landing-icon-link">
-              <img src="/Icons/github-white.svg" alt="icon-github"></a>
-          </li>
-        </ul>
-      </footer>
+        </footer>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
