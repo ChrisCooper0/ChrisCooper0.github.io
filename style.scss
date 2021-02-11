@@ -14,7 +14,6 @@ html {
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   line-height: 1.6rem;
-  overflow-x: hidden;
 }
 
 .main {
@@ -22,7 +21,6 @@ html {
   text-transform: uppercase;
   position: 100vh;
   width: 100%;
-  overflow: hidden;
 }
 
 .landing {
@@ -114,11 +112,11 @@ html {
 .nav-bar {
   position: -webkit-sticky;
   position: sticky;
-  top: 0px;
+  top: 0;
   width: 100%;
   height: 50px;
   background: $navbar;
-  z-index: 2;
+  z-index: 10;
   ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -215,8 +213,10 @@ section {
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
+  width: 100%;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 .card {
