@@ -30,9 +30,9 @@ html {
   background-position: 100% 10%;
 }
 
-.js-loading *,
-.js-loading *:before,
-.js-loading *:after {
+.loading *,
+.loading *:before,
+.loading *:after {
   animation-play-state: paused !important;
 }
 
