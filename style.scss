@@ -25,7 +25,7 @@ html {
 
 .landing {
   height: 100vh;
-  background-image: url(/Images/landing-min.png);
+  background-image: url(/Images/landing.webp);
   background-size: cover, auto;
   background-position: 100% 10%;
 }
@@ -57,9 +57,42 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-.landing-intro-text {
+.landing-intro-text_Hello,
+.landing-intro-text_Chris {
   font-size: 4rem;
   line-height: 5rem;
+}
+
+.landing-intro-text_Hello {
+  animation-name: hello;
+  animation-iteration-count: 1;
+  animation-duration: 1.7s;
+  animation-timing-function: ease-in-out;
+}
+
+.landing-intro-text_Chris {
+  animation-name: chris;
+  animation-iteration-count: 1;
+  animation-duration: 1.75s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes hello {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes chris {
+  from {
+    transform: translateY(125%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 .landing-scroll-button {
@@ -142,8 +175,8 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     color: $primarycolor;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
   }
 }
 
@@ -340,9 +373,10 @@ h4 {
     top: 60%;
     left: 30%;
   }
-  .landing-intro-text {
+  .landing-intro-text_Hello,
+  .landing-intro-text_Chris {
     font-size: 3rem;
-    line-height: 5rem;
+    line-height: 4.5rem;
   }
   .skills-icons-list {
     display: grid;
@@ -366,9 +400,10 @@ h4 {
     top: 60%;
     left: 30%;
   }
-  .landing-intro-text {
+  .landing-intro-text_Hello,
+  .landing-intro-text_Chris {
     font-size: 3rem;
-    line-height: 5rem;
+    line-height: 4rem;
   }
   .skills-icons-list {
     display: -ms-grid;
