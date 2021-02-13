@@ -25,6 +25,13 @@ html {
   background-position: 100% 10%;
 }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  -webkit-animation-play-state: paused !important;
+          animation-play-state: paused !important;
+}
+
 .landing-icon {
   position: absolute;
   right: 10px;
