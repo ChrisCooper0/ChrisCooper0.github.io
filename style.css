@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -29,7 +29,7 @@ html {
 .loading *:before,
 .loading *:after {
   -webkit-animation-play-state: paused !important;
-  animation-play-state: paused !important;
+          animation-play-state: paused !important;
 }
 
 .landing-icon {
@@ -69,67 +69,67 @@ html {
 
 .landing-intro-text_Hello {
   -webkit-animation-name: hello;
-  animation-name: hello;
+          animation-name: hello;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
   -webkit-animation-duration: 1.7s;
-  animation-duration: 1.7s;
+          animation-duration: 1.7s;
   -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 .landing-intro-text_Chris {
   -webkit-animation-name: chris;
-  animation-name: chris;
+          animation-name: chris;
   -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+          animation-iteration-count: 1;
   -webkit-animation-duration: 1.75s;
-  animation-duration: 1.75s;
+          animation-duration: 1.75s;
   -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 @-webkit-keyframes hello {
   from {
     -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+            transform: translateY(100%);
   }
   to {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @keyframes hello {
   from {
     -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+            transform: translateY(100%);
   }
   to {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @-webkit-keyframes chris {
   from {
     -webkit-transform: translateY(125%);
-    transform: translateY(125%);
+            transform: translateY(125%);
   }
   to {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 @keyframes chris {
   from {
     -webkit-transform: translateY(125%);
-    transform: translateY(125%);
+            transform: translateY(125%);
   }
   to {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -291,15 +291,15 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -310,11 +310,11 @@ section {
   display: inline-block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   padding: 25px;
   margin: 20px 20px;
@@ -442,8 +442,8 @@ h4 {
   .skills-icons-list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr) [5];
-    grid-template-columns: repeat(5, 1fr);
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
     list-style: none;
     margin: 10px;
     padding: 10px 0;
