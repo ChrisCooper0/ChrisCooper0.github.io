@@ -266,17 +266,6 @@ section {
   text-transform: none;
 }
 
-.icon-cv {
-  -webkit-transition: ease-in-out 0.33s;
-  transition: ease-in-out 0.33s;
-}
-
-.icon-cv:hover {
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
-  cursor: pointer;
-}
-
 #projects {
   margin-top: 4rem;
   background-color: #b0c4de;
