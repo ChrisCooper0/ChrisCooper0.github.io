@@ -264,6 +264,7 @@ section {
   line-height: 3rem;
   margin: 4rem 4rem 1rem 4rem;
   text-transform: none;
+  padding-bottom: 4rem;
 }
 
 #projects {
@@ -325,7 +326,7 @@ h4 {
 
 .project-img {
   border-radius: 2%;
-  width: 400px;
+  max-width: 400px;
   height: 250px;
   size: cover;
 }
@@ -456,6 +457,12 @@ h4 {
   .landing-intro-text_Chris {
     font-size: 3rem;
     line-height: 4rem;
+  }
+  .about-me {
+    line-height: 2.5rem;
+    margin: 4rem 2rem;
+    text-transform: none;
+    padding-bottom: 4rem;
   }
   .skills-icons-list {
     display: -ms-grid;
