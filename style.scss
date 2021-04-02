@@ -25,7 +25,7 @@ html {
 
 .landing {
   height: 100vh;
-  background-image: url(/Images/landing.webp);
+  background-image: url(/Images/landing.png);
   background-size: cover, auto;
   background-position: 100% 10%;
 }
@@ -213,10 +213,11 @@ section {
   overflow: hidden;
   position: relative;
   top: 1rem;
+  .profile-pic {
+    width: 100%;
+  }
 }
-.profile-pic {
-  width: 100%;
-}
+
 .about {
   margin-bottom: 1rem;
   margin-top: 3rem;

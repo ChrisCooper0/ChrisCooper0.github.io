@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script>
     document.body.classList.add("loading");
 
@@ -66,7 +67,7 @@
       <section>
         <h3 class="about">About</h3>
         <div class="profile-div">
-          <img src="Images/profile.webp" class="profile-pic" alt="profile-picture" />
+          <img src="Images/profile.png" class="profile-pic" alt="profile-picture" />
         </div>
         <p class="about-me">
           Hi, I'm Chris.
@@ -81,9 +82,9 @@
       <section id="projects">
         <h3 class="project-header">Projects</h3>
         <div class="project-container">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <h4>Portfolio site</h4>
-            <img src="Images/portfolio.webp" alt="portfolio-page-image" class="project-img" />
+            <img src="Images/portfolio.png" alt="portfolio-page-image" class="project-img" />
             <p class="card-text">
               This site was built using HTML and CSS (Scss).
             </p>
@@ -91,9 +92,9 @@
               <img class="project-icons" src="Icons/github-black.svg" alt="icon-github" />
             </a>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <h4>Hats for Her</h4>
-            <img src="Images/hats-for-her.webp" alt="hats-for-her-image" class="project-img" />
+            <img src="Images/hats-for-her.png" alt="hats-for-her-image" class="project-img" />
             <p class="card-text">
               Website re-design built with Bootstrap and JavaScript.
             </p>
@@ -104,7 +105,7 @@
               <img class="project-icons" src="Icons/github-black.svg" alt="icon-github" />
             </a>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="800">
             <h4>Calculator</h4>
             <img src="Images/calculator.webp" alt="calculator-image" class="project-img" />
             <p class="card-text">
@@ -114,7 +115,7 @@
               <img class="project-icons" src="Icons/github-black.svg" alt="icon-github" />
             </a>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="800">
             <h4>Password Generator</h4>
             <img src="Images/password-generator.webp" alt="password-generator-image" class="project-img" />
             <p class="card-text">
@@ -128,7 +129,7 @@
               <img class="project-icons" src="Icons/github-black.svg" alt="icon-github" />
             </a>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="800">
             <h4>Blog site</h4>
             <img src="Images/nftoftheweek.png" alt="concept-blog-image" class="project-img" />
             <p class="card-text">
@@ -141,19 +142,15 @@
               <img class="project-icons" src="Icons/github-black.svg" alt="icon-github" />
             </a>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="800">
             <h4>Book List</h4>
-            <img src="Images/Booklist.png" alt="booklist-image" class="project-img" />
+            <img src="Images/booklist.png" alt="booklist-image" class="project-img" />
             <p class="card-text">
               Booklist built with Bootstrap and JavaScript.
             </p>
             <a href="https://github.com/ChrisCooper0/BookList" target="_blank" rel="noreferrer noopener">
               <img class="project-icons" src="Icons/github-black.svg" alt="icon-github" />
             </a>
-          </div>
-          <div class="card">
-            <h4>More coming soon!</h4>
-            <img src="Images/webdev.webp" alt="" class="project-img" />
           </div>
         </div>
       </section>
@@ -232,6 +229,10 @@
       </footer>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

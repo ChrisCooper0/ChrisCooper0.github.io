@@ -20,7 +20,7 @@ html {
 
 .landing {
   height: 100vh;
-  background-image: url(/Images/landing.webp);
+  background-image: url(/Images/landing.png);
   background-size: cover, auto;
   background-position: 100% 10%;
 }
@@ -251,7 +251,7 @@ section {
   top: 1rem;
 }
 
-.profile-pic {
+.profile-div .profile-pic {
   width: 100%;
 }
 
