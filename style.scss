@@ -30,11 +30,6 @@ html {
   background-position: 100% 10%;
 }
 
-.loading *,
-.loading *:before,
-.loading *:after {
-  animation-play-state: paused !important;
-}
 
 .landing-icon {
   position: absolute;
@@ -318,6 +313,7 @@ h4 {
   }
 }
 
+
 .icon-text {
   display: block;
   font-size: 1rem;
@@ -358,6 +354,7 @@ h4 {
     cursor: pointer;
   }
 }
+
 
 @media screen and (max-width: 1150px) {
   .nav-bar ul li {
@@ -416,6 +413,8 @@ h4 {
     -ms-grid-columns: 1fr [4];
     grid-template-columns: repeat(3, 1fr);
   }
+ 
+
 }
 
 /*# sourceMappingURL=style.css.map */
