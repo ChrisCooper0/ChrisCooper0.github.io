@@ -293,7 +293,9 @@ html {
     align-items: flex-start;
     height: 100%;
   }
-  .navbar-links ul {
+  .navbar-links {
+  
+  ul {
     flex-direction: column;
     li {
       text-align: center;
@@ -301,11 +303,12 @@ html {
         padding: 0.5rem 1rem;
       }
     }
-    .active {
-      display: flex;
-    }
+  }
+  .active {
+    display: flex;
   }
 }
+
 
 section {
   display: -webkit-box;
